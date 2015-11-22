@@ -28,7 +28,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function make computation and store the result in the special matix
-## Mainly it compute the inverse of the matrix if the matrix change otherwise
+## Mainly it compute the inverse of the matrix if the matrix change and stored
+## it in the special "matrix" otherwise
 ## it read it in the cache
 
 cacheSolve <- function(x, ...) {
